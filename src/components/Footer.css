@@ -1,0 +1,32 @@
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #0087e0;
+    /* padding: 0px 0; */
+    overflow: hidden;
+  }
+  
+  .blinking-text {
+    animation: blink 2s infinite;
+    color: white;
+    font-size: 130%;
+  }
+
+  .container {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    width: 50.89%;
+    height: 4%;
+    /* margin-left: 5px; */
+    
+  }
+  

@@ -1,0 +1,160 @@
+
+.containers{
+    width: fit-content;
+    height: fit-content;
+    left: 0%;
+}
+
+
+
+
+.tab-view {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    /* color: #ffffff; */
+    /* margin-left: 10px; */
+    
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 71px;
+    
+  }
+  
+  .tabs button {
+    border: none;
+    background: none;
+    background-color:#0a0a0a;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: background-color 0.2s ease-in-out;
+    
+  }
+  
+  .tabs button.active {
+    background-color: #1b1b1b;
+    border-top: 1px solid #0087e0;
+  }
+
+  
+  .tabs button:focus,
+  .tabs button:active,
+  .tabs button:hover {
+    outline: none;
+    background-color: transparent;
+    
+  }  
+
+
+.tab-content {
+    border: 3px solid #484848;
+    padding: 50px;
+    height: 689px;
+    margin-left: 71px;
+    margin-top: -9px;
+    overflow: scroll;
+}
+
+.intro {
+    margin-top: -70px;
+}
+
+.Designation {
+    margin-top: 50px;
+}
+
+/* .container0 {
+    border: 4px;
+    border-color: #ffffff;
+    font-size: large;
+    height: 40px;
+} */
+
+div h1 {
+    color: #c7c7c7cd;
+    font-weight: 600 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+
+}
+
+div h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #80ff7cbb;
+
+}
+
+p1 {
+    color: rgb(10, 140, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    top: -10px;
+}
+
+.image7{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.Summary{
+    margin-left: 550px;
+    margin-top: -400px;
+}
+div h3{
+    color: white;
+    /* font-size: large; */
+    display: inline;
+}
+.tags{
+    color: rgb(10, 140, 240);
+}
+div p4{
+    font-size: x-large;
+    color: white;
+}
+
+.DOB{
+    font-size: larger;
+    color: rgb(0, 128, 0);
+    margin-left: 10px;
+    
+}    
+.box {
+    margin-top: 150px;
+    margin-left: 470px;
+    color: rgba(255, 255, 255, 0.548);
+
+}
+
+.skills {
+    /* z-index: 1; */
+    margin-top: 609px;
+    margin-left: -118.1px;
+    margin-right: -45px;
+}
+
+.head {
+    color: #0087e0;
+    font-size: 50px;
+}
+.body1 {
+    color: #ffffffb6;
+    font-size: 30px;
+    /* text-indent: 1em; */
+}
+.para {
+    color: #0087e0;
+    font-size: 30px;
+}
+
