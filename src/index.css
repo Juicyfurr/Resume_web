@@ -29,6 +29,6 @@ code {
 /* CSS for mobile devices */
 @media (max-width: 767px) {
   .container {
-    padding: 10px;
+    padding: 0px;
   }
 }
