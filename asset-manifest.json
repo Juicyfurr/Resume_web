@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Resume_web/static/css/main.7eefb368.css",
+    "main.js": "/Resume_web/static/js/main.349660c4.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/Resume_web/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/Profile.svg": "/Resume_web/static/media/Profile.63f20dc4c4b840d92cfd7cec8b56a82c.svg",
+    "static/media/address.svg": "/Resume_web/static/media/address.be301b02a321fd13459db063297fc574.svg",
+    "static/media/phone.svg": "/Resume_web/static/media/phone.d00994af4cab5853ed3ef57911b59981.svg",
+    "static/media/email.svg": "/Resume_web/static/media/email.4b3f8d66c17abc1ce7793aa37af83cb8.svg",
+    "static/media/linkedin.svg": "/Resume_web/static/media/linkedin.717e89c4abab6c7a4d7f089c3dc6c783.svg",
+    "index.html": "/Resume_web/index.html",
+    "static/media/git.svg": "/Resume_web/static/media/git.065c3e697493ac560cb8f9ff3a74aa4d.svg",
+    "static/media/files.svg": "/Resume_web/static/media/files.d6658a4d78f0200b0700385b7f5b7018.svg",
+    "main.7eefb368.css.map": "/Resume_web/static/css/main.7eefb368.css.map",
+    "main.349660c4.js.map": "/Resume_web/static/js/main.349660c4.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/Resume_web/static/js/787.dc9ee2bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eefb368.css",
+    "static/js/main.349660c4.js"
+  ]
+}
