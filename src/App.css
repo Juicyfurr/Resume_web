@@ -1,0 +1,13 @@
+.sidebar {
+    width: 4.899vw;
+    background-color: #101010;;
+    color: white;
+    padding-left: 1px;
+    display: flex;
+    flex-direction: column;
+    height: 96.3% !important; 
+}
+
+.footer {
+    margin-right: -2%;
+}

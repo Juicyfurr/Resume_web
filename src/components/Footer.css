@@ -10,23 +10,21 @@
   .footer {
     text-align: center;
     background-color: #0087e0;
-    /* padding: 0px 0; */
-    overflow: hidden;
+    /* width: 51vw; */
   }
   
   .blinking-text {
     animation: blink 2s infinite;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 130%;
   }
 
   .container {
     position: fixed;
-    left: 50%;
+    right: 0;
     bottom: 0;
-    width: 50.89%;
-    height: 4%;
-    /* margin-left: 5px; */
+    width: 51.5vw;
+    height: 3.5vh;
     
   }
   

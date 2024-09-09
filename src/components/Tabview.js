@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import './Tabview.css';
 import img7 from './logos/Profile.svg';
 
@@ -33,17 +34,17 @@ const TabView = () => {
                 <h5>Education.js</h5>
                 </button>
             </div>
-        </div> 
-          
-        
+        </div>         
     </div>
+
+
     <div className="tab-content">
         {activeTab === 1 && 
         <div className='intro'>
             <h1>Rajat Jha</h1>
-            <div><p1 className="Designation">Technology Analyst <span style={{ color: '#e79a00', fontSize:'larger'}}>(3.6 yrs)</span></p1></div>
-            <div><p5 className="DOB">(Born, the year iMac was introduced.11/02/1998)</p5></div>
-            <div><img className="image7" src={img7} alt="" /></div> 
+            <div className="Designation"><p1>Technology Analyst <span style={{ color: '#e79a00', fontSize:'larger'}}>(3.6 yrs)</span></p1></div>
+            <div className="DOB"><p5>(Born, the year iMac was introduced.11/02/1998)</p5></div>
+            <div className="image7"><img className="img_me" src={img7} alt="" /></div> 
             <div className='Summary'>
                 <h3 className='tags'>&lt;h3&gt;</h3><h3>Summary</h3><h3 className='tags'>&lt;/h3&gt;</h3><br/><br/><br/>
                 <p4 className='tags'>&lt;p&gt;</p4>

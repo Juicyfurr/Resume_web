@@ -5,9 +5,6 @@
     left: 0%;
 }
 
-
-
-
 .tab-view {
     width: 100%;
     max-width: 300px;
@@ -15,7 +12,7 @@
     /* color: #ffffff; */
     /* margin-left: 10px; */
     
-  }
+}
   
   .tabs {
     display: flex;
@@ -25,7 +22,7 @@
     
   }
   
-  .tabs button {
+.tabs button {
     border: none;
     background: none;
     background-color:#0a0a0a;
@@ -34,38 +31,39 @@
     color: #ffffff;
     transition: background-color 0.2s ease-in-out;
     
-  }
+}
   
-  .tabs button.active {
+.tabs button.active {
     background-color: #1b1b1b;
     border-top: 1px solid #0087e0;
-  }
+}
 
   
-  .tabs button:focus,
-  .tabs button:active,
-  .tabs button:hover {
+.tabs button:focus,
+.tabs button:active,
+.tabs button:hover {
     outline: none;
     background-color: transparent;
     
-  }  
+}  
 
 
 .tab-content {
     border: 3px solid #484848;
-    padding: 50px;
-    height: 689px;
-    margin-left: 71px;
-    margin-top: -9px;
+    padding: 8%;
+    height: 88.5vh;
+    margin-left: 5%;
+    margin-top: -1%;
     overflow: scroll;
+    width: auto;
 }
 
 .intro {
-    margin-top: -70px;
+    margin-top: -10%;
 }
 
 .Designation {
-    margin-top: 50px;
+    margin-top: -5%;
 }
 
 /* .container0 {
@@ -99,12 +97,21 @@ p1 {
 }
 
 .image7{
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    overflow: hidden;
-    margin-top: 30px;
-    margin-left: 45px;
+    width: 30vw;
+    height: 30vh;
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    margin-top: 3%;
+    margin-left: 10vw;
+}
+
+.img_me {
+    /* position: fixed; */
+    width: 10vw;
+    height: 10vh;
+    margin-top: 8vh;
+    /* margin-left: -6vw; */
+    /* border-radius: 100%; */
 }
 
 .Summary{

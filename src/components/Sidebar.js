@@ -1,13 +1,11 @@
-
-
 import React, { useState } from 'react';
-import './Sidebar.css';
 import img1 from './logos/phone.svg';
 import img2 from './logos/linkedin.svg';
 import img3 from './logos/email.svg';
 import img4 from './logos/address.svg';
 import img5 from './logos/files.svg';
 import img6 from './logos/git.svg';
+import './Sidebar.css';
 import {ImagePopupPhone, ImagePopupMail, ImagePopupLkdin, ImagePopupHome} from './ImagePopup';
 
 const Sidebar = () => {
@@ -54,12 +52,14 @@ const Sidebar = () => {
   return (
     <div>
       <nav className="sidebar">
-          <img className="image5" src={img5} alt="" />
-          <img className="image6" src={img6} alt="" />
+        <img className="image5" src={img5} alt="" />
+        <img className="image6" src={img6} alt="" />
+        <div className='info'>
           <img onClick={openPhonePopup} className="image1" src={img1} alt="" />
           <img onClick={openMailPopup} className="image3" src={img3} alt="" />
           <img onClick={openLkdinPopup} className="image2" src={img2} alt="" />
           <img onClick={openHomePopup} className="image4" src={img4} alt="" />
+        </div>
       </nav>
 
       {phonepopupOpen && (

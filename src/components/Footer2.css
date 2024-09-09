@@ -1,34 +1,31 @@
 @keyframes loopText {
     0% {
-      transform: translateX(-120%);
+      transform: translateX(-118%);
     }
     100% {
-      transform: translateX(120%);
+      transform: translateX(118%);
     }
-  }
-  
-  .footer2 {
-    background-color: #fffb00;
-    padding: 0px 0;
-    text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
   }
   
   .looping-text {
     display: inline-block;
     animation: loopText 10s linear infinite;
-    font-size:larger;
-    color: black;
+    font-size: 130%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .footer2 {
+    text-align: center;
+    background-color: #f2ff00;
+    overflow: hidden;
+
   }
 
   .container2 {
     position: fixed;
-    left: 1%;
+    left: 0;
     bottom: 0;
-    width: 50.89%;
-    height: 4%;
-    margin-left: -12px;
-    
+    width: 49vw;
+    height: 3.5vh;
   }
-  
+    
